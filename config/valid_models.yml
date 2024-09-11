@@ -1,0 +1,57 @@
+openai:
+  base_models:
+    - gpt-3.5-turbo-1106
+    - gpt-3.5-turbo-0125
+    - gpt-3.5-turbo-0613
+    - gpt-3.5-turbo-0301
+    - gpt-3.5-turbo-16k
+    - gpt-3.5-turbo-16k-0613
+    - gpt-3.5-turbo-ca
+    - gpt-4
+    - gpt-4-1106-preview
+    - gpt-4-0125-preview
+    - gpt-4-vision-preview
+    - gpt-4-turbo
+    - gpt-4o
+
+moonshot_models:
+  base_models:
+    - moonshot-v1-8k
+    - moonshot-v1-32k
+    - moonshot-v1-128k
+
+deepseek_models:
+  base_models:
+    - deepseek-chat
+    - deepseek-coder
+
+zhipu_models:
+  base_models:
+    - GLM-4
+    - GLM-3-turbo
+    - GLM-4V
+
+ali:
+# https://dashscope.console.aliyun.com/billing
+  base_models:
+    - qwen-turbo
+    - qwen-plus
+    - qwen-max
+    - qwen-max-longcontext
+  chat_models:
+    - qwen1.5-0.5b-chat
+    - qwen-1.8b-chat
+    - chatglm3-6b
+
+qianfan:
+# https://console.bce.baidu.com/qianfan/chargemanage/list
+  base_models:
+    - ERNIE-Speed-128K
+  chat_models:
+    - Yi-34B-Chat
+
+siliconflow:
+  base_models:
+    - alibaba/Qwen1.5-110B-Chat
+  chat_models:
+    - alibaba/Qwen1.5-110B-Chat
