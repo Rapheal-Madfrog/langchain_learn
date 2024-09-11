@@ -1,0 +1,4 @@
+.idea/
+__pycharm__
+__pycache__
+config/api_config.yml
