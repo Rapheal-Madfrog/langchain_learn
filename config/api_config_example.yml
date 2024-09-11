@@ -1,0 +1,22 @@
+# rename to /config/api_config.yml and fill in your own access keys
+
+openai:
+  base_url: https://api.openai.com/v1
+  keys:
+    default: your_access_key
+
+siliconflow:
+  base_url: https://api.siliconflow.cn/v1
+  keys:
+    default: your_access_key
+
+ali:
+  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  keys:
+    default: your_access_key
+
+qianfan:
+  keys:
+    default:
+      ak: your_access_key
+      sk: your_secret_key
